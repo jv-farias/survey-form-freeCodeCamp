@@ -18,7 +18,7 @@
       <label id="name-label" for="name">Nome Completo<input id="name" name="name" type="text" required placeholder="Digite seu nome completo"></label>
       <label id="email-label" for="email">Email<input id="email" name="email" type="email" required placeholder="Digite seu email"></label>
       <label id="number-label" for="number">Idade <span>(Opcional)</span><input id="number" name="number" type="number" min="16" max="120" placeholder="Digite sua idade"></label>
-      
+
       <label id="funcoes-label" for="dropdown-funcoes">Qual opção melhor descreve a sua função atual?
         <select name="funcoes" id="dropdown-funcoes" required>
           <option disabled selected value="">Selecione a função atual</option>
@@ -36,7 +36,14 @@
         <label id="radio-label2" for="provavelmente"><input id="provavelmente" type="radio" name="user-recommend" value="provavelmente"> Provavelmente </label>
         <label id="radio-label3" for="nunca"><input id="nunca" type="radio" name="user-recommend" value="nunca"> Nunca </label>
       </fieldset>
-       <fieldset>
+      <fieldset>
+        <p id="title-checkbox">De quais eventos você já participou na Digital College?</p>
+        <label><input name="events" value="bootcamp" type="checkbox" class="input-checkbox" checked/>Bootcamp</label>
+         <label><input name="events" value="hackaton" type="checkbox" class="input-checkbox"/>Hackaton</label>
+         <label><input name="events" value="imersao" type="checkbox" class="input-checkbox"/>Imersões</label>
+      </fieldset>
+ <fieldset>
+
      <label id="cursos-label" for="dropdown-cursos">Qual curso você pretende fazer?
         <select name="cursos" id="dropdown-cursos" required>
           <option disabled selected value="">Selecione uma opção</option>
